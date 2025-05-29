@@ -85,15 +85,28 @@ public class Main {
         System.out.println(!(cisloKPorovnanie > 8 || cisloKPorovnanie < 0));*/
 
         //Feature pre kontrolu veku, bude mat uzivatel 18 a viac vypis do konzoli vitaj v aplikacii
-        int vek;
+        /*int vek;
         Scanner mujScanner = new Scanner(System.in);
 
         System.out.println("Zadaj svoj vek");
         vek = mujScanner.nextInt();
 
-        if (vek >= 18 ) {
+        if (vek >= 18) {
             System.out.println("Uzivatel je dospely");
+             if (vek >= 65) {
+                System.out.println("Si stary kokot");
+            }
         }
+
+         else if (vek >= 0 && vek < 18) {
+            System.out.println("LaPolicia nononono");
+        }
+
+        else  {
+            System.out.println("Neda sa nicht error 404");
+        }*/
+
+
 
 
 
