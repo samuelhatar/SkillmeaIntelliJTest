@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -111,7 +112,7 @@ public class Main {
         // (>=18.5 && >25) - optimalna vaha
         // (>=25) - nadvaha
 
-        float vyska;
+        /*float vyska;
         float hmotnost;
         float BMI;
 
@@ -136,10 +137,25 @@ public class Main {
             System.out.println("Uzivatel zadal zapornu nadvahu");
         }
 
-        System.out.println(BMI);
+        System.out.println(BMI);*/
+
+
+        //Liche cislo = vyhrava, Sude cislo = prehral
+
+        int hodeneCislo;
+        Random nahodnyGenerator = new Random();
+
+        hodeneCislo = nahodnyGenerator.nextInt(1, 7);
+        System.out.println("Hodene cislo je:" + hodeneCislo);
+
+        if (hodeneCislo % 2 == 1) {
+            System.out.println("Licha - Vyhravas!");
+        }
+        else {
+            System.out.println("Suda - Prehravas");
+        }
+
 
     }
-
-
 
     }
