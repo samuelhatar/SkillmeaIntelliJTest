@@ -142,7 +142,7 @@ public class Main {
 
         //Liche cislo = vyhrava, Sude cislo = prehral
 
-        int hodeneCislo;
+        /*int hodeneCislo;
         Random nahodnyGenerator = new Random();
 
         hodeneCislo = nahodnyGenerator.nextInt(1, 7);
@@ -153,6 +153,38 @@ public class Main {
         }
         else {
             System.out.println("Suda - Prehravas");
+        }*/
+
+        //Switch - den v tyzdny
+        Scanner mujScanner = new Scanner(System.in);
+        int cisloDna;
+        System.out.println("Zadaj cislo dna");
+        cisloDna = mujScanner.nextInt();
+
+        switch (cisloDna) {
+            case 1:
+                System.out.println("Je pondelok");
+                break;
+            case 2:
+                System.out.println("Je utorok");
+                break;
+            case 3:
+                System.out.println("Je streda");
+                break;
+            case 4:
+                System.out.println("Je stvrtok");
+                break;
+            case 5:
+                System.out.println("Je piatok");
+                break;
+            case 6:
+                System.out.println("Je sobota");
+                break;
+            case 7:
+                System.out.println("Je nedela");
+                break;
+            default:
+                System.out.println("Neplatne cislo dna");
         }
 
 
