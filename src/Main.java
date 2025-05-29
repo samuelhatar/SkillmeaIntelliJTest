@@ -214,6 +214,16 @@ public class Main {
         System.out.println(znamky[4] + 1);*/
 
         String[] mena = new String[] {"Samo, Cyril, Roberto, Michal, Sarah, Sophie"};
+        Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadaj poziciu k zmnene(max29)");
+        int poziciaZmeny = mujScanner.nextInt();
+        mujScanner.nextInt();
+        System.out.println("Zadaj meno");
+        String meno = mujScanner.nextLine();
+
+
+
+
         mena[0] = "Sarah";
         System.out.println(mena[0]);
 
