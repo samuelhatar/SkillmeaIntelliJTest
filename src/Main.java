@@ -231,8 +231,10 @@ public class Main {
         pole20[0][0][0] = 464;
         pole20[0][1][0] = -92;*/
 
-
-
+//smicka
+        for (int i = 1; i < 11; i++){
+            System.out.println(i +"Hello World");
+        }
 
     }
 
