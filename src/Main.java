@@ -79,10 +79,22 @@ public class Main {
                 System.out.println(prveCislo <= druheCislo);*/
 
 
-        int cisloKPorovnanie = 9;
+        /*int cisloKPorovnanie = 9;
         System.out.println(cisloKPorovnanie < 8 && cisloKPorovnanie <= 8);
         System.out.println(cisloKPorovnanie > 8 || cisloKPorovnanie < 0);
-        System.out.println(!(cisloKPorovnanie > 8 || cisloKPorovnanie < 0));
+        System.out.println(!(cisloKPorovnanie > 8 || cisloKPorovnanie < 0));*/
+
+        //Feature pre kontrolu veku, bude mat uzivatel 18 a viac vypis do konzoli vitaj v aplikacii
+        int vek;
+        Scanner mujScanner = new Scanner(System.in);
+
+        System.out.println("Zadaj svoj vek");
+        vek = mujScanner.nextInt();
+
+        if (vek >= 18 ) {
+            System.out.println("Uzivatel je dospely");
+        }
+
 
 
 
