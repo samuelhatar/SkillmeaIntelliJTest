@@ -232,7 +232,7 @@ public class Main {
         pole20[0][1][0] = -92;*/
 
 //smicka
-        for (int i = 1; i < 11; i++){
+        for (int i = 1; i < 101; i++){
             System.out.println(i +"Hello World");
         }
 
