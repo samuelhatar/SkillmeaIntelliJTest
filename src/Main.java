@@ -213,7 +213,7 @@ public class Main {
 
         System.out.println(znamky[4] + 1);*/
 
-        String[] mena = new String[] {"Samo, Cyril, Roberto, Michal, Sarah, Sophie"};
+        /*String[] mena = new String[] {"Samo, Cyril, Roberto, Michal, Sarah, Sophie"};
         Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadaj poziciu k zmnene(max29)");
         int poziciaZmeny = mujScanner.nextInt();
@@ -225,7 +225,13 @@ public class Main {
 
 
         mena[0] = "Sarah";
-        System.out.println(mena[0]);
+        System.out.println(mena[0]);*/
+
+        /*int[][] pole20 = new int[3][3][5];
+        pole20[0][0][0] = 464;
+        pole20[0][1][0] = -92;*/
+
+
 
 
     }
