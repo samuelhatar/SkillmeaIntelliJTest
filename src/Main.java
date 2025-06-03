@@ -270,7 +270,7 @@ public class Main {
         System.out.println("Tu pokracuje");*/
 
         //Vylepseni ulohy hod kostkami
-        int hozeneCislo;
+        /*int hozeneCislo;
         Random nahodnyGenerator = new Random();
 
         boolean riadiaciaPromenna = true;
@@ -297,7 +297,51 @@ public class Main {
                 break;
             }
 
-        } while (riadiaciaPromenna);
+        } while (riadiaciaPromenna);*/
+
+        //21 (Blackjack)
+        Scanner mojSkener = new Scanner(System.in);
+        Random NahGenSlovAndejDanko = new Random();
+        int skoreHraca = 0;
+        int skoreKrupiera = 0;
+        int tahanaKarta;
+
+        do {
+          tahanaKarta = NahGenSlovAndejDanko.nextInt(1,14);
+          System.out.println("Skore karta je: " + tahanaKarta);
+          skoreHraca = skoreHraca + tahanaKarta;
+          System.out.println("Skore hraca je: " + skoreHraca);
+
+          System.out.println("Chces dalsi kartu stiskni - d");
+          System.out.println("Uz nechces kartu stiskni - q");
+          uzivatelskyVstup = mojSkener.nextLine();
+
+          if (uzivatelskyVstup.eqals("d")){
+              continue;
+          }
+
+          else if (uzivatelskyVstup.equels("q")) {
+              skoreKrupiera = NahGenSlovAndejDanko.nextInt(1,14);
+                      if(skoreKrupiera < 10){
+                          skoreKrupiera += NahGenSlovAndejDanko.nextInt(1,14);
+                      }
+                      break;
+
+          }
+
+
+        }while (true);
+
+        System.out.println("Skore hrace: " + skoreHrace);
+        System.out.println("Skore krupiera: " + skoreKrupiera);
+
+        if(skoreHrace > skoreKrupiera && skoreHrace <= 21){
+            System.out.println("Vyhral jste");
+        } else {
+            System.out.println("Prohral jste");
+        }
+
+        System.out.println("Dekujeme za hru");
 
 
 
