@@ -296,7 +296,6 @@ public class Main {
                 riadiaciaPromenna = false;
             }
 
-
         } while (riadiaciaPromenna);
 
 
