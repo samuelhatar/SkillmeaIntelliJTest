@@ -261,13 +261,35 @@ public class Main {
         }
         System.out.println("Tu pokracuje");*/
 
-        //do...while
-        int ridiciPromena2 = 0;
+        //do...while ()
+        /*int ridiciPromena2 = 0;
         do {
             System.out.println(ridiciPromena2);
             ridiciPromena2++;
         } while (ridiciPromena2 < 5);
-        System.out.println("Tu pokracuje");
+        System.out.println("Tu pokracuje");*/
+
+        //Vylepseni ulohy hod kostkami
+        int hozeneCislo;
+        Random nahodnyGenerator = new Random();
+
+        boolean riadiaciaPromenna = true;
+
+        do {
+            System.out.println("Pro hozeni kostkou stiskni enter");
+            Scanner mujScanner = new Scanner(System.in);
+            mujScanner.nextLine();
+
+            hozeneCislo = nahodnyGenerator.nextInt(1, 7);
+            System.out.println("Hozene cislo je: " + hozeneCislo);
+
+            if (hozeneCislo % 2 == 1) {
+                System.out.println("Licha - Vyhravas!");
+            } else {
+                System.out.println("Suda - Prohravas");
+            }
+        } while (riadiaciaPromenna);
+
 
 
 
