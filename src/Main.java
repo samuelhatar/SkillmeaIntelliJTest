@@ -293,7 +293,8 @@ public class Main {
             System.out.println("Pre ukoncenie hry zadaj pismeno q");
             ukoncenie = mujScanner.nextLine();
             if(ukoncenie.equals("q")){
-                riadiaciaPromenna = false;
+                //riadiaciaPromenna = false;
+                break;
             }
 
         } while (riadiaciaPromenna);
