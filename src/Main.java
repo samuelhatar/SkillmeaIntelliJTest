@@ -232,9 +232,36 @@ public class Main {
         pole20[0][1][0] = -92;*/
 
 //smicka
-        for (int i = 0; i < 100; i++){
-            System.out.println(i * 21);
+       /*i for (int i = 0; i < 10; i++){
+            System.out.println(i * 5);
+            if (i == 5){
+                //break;
+                continue;
+            }
+            System.out.println(i);
+        }*/
+
+       /*i for (int i = 0; i < 10; i++){
+        String[] mena = new String[] {"Samo", "Cyril", "Roberto", "Michal", "Sarah", "Sophie"};
+        //for
+        for (int i = 0; i < mena.length; i++){
+        System.out.println(mena [i]);
         }
+
+        //foreach
+        for(String meno: mena){
+            System.out.println(meno);
+        }*/
+
+        //white
+        int ridiciPromenna = 0;
+        while (ridiciPromenna < 5){
+            System.out.println(ridiciPromenna);
+            //ridiciPromenna++;
+        }
+
+
+
     }
 
     }
