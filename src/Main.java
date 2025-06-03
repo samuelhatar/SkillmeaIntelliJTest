@@ -253,12 +253,21 @@ public class Main {
             System.out.println(meno);
         }*/
 
-        //white
-        int ridiciPromenna = 0;
-        while (ridiciPromenna < 5){
+        //while
+        /*int ridiciPromenna = 0;
+        while (ridiciPromenna <= 5){
             System.out.println(ridiciPromenna);
-            //ridiciPromenna++;
+            ridiciPromenna++;
         }
+        System.out.println("Tu pokracuje");*/
+
+        //do...while
+        int ridiciPromena2 = 0;
+        do {
+            System.out.println(ridiciPromena2);
+            ridiciPromena2++;
+        } while (ridiciPromena2 < 5);
+        System.out.println("Tu pokracuje");
 
 
 
