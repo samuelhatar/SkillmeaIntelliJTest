@@ -274,6 +274,7 @@ public class Main {
         Random nahodnyGenerator = new Random();
 
         boolean riadiaciaPromenna = true;
+        String ukoncenie;
 
         do {
             System.out.println("Pro hozeni kostkou stiskni enter");
@@ -288,6 +289,13 @@ public class Main {
             } else {
                 System.out.println("Suda - Prohravas");
             }
+
+            System.out.println("Pre ukoncenie hry zadaj pismeno q");
+            ukoncenie = mujScanner.nextLine();
+            if(ukoncenie.equals("q")){
+                riadiaciaPromenna = false;}
+
+
         } while (riadiaciaPromenna);
 
 
